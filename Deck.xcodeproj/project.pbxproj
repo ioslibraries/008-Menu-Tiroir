@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35C7EB8E152E0DA3005C5DDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C7EB8D152E0DA3005C5DDE /* UIKit.framework */; };
+		35C7EB90152E0DA3005C5DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C7EB8F152E0DA3005C5DDE /* Foundation.framework */; };
+		35C7EB92152E0DA3005C5DDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C7EB91152E0DA3005C5DDE /* CoreGraphics.framework */; };
+		35C7EB98152E0DA3005C5DDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35C7EB96152E0DA3005C5DDE /* InfoPlist.strings */; };
+		35C7EB9A152E0DA3005C5DDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C7EB99152E0DA3005C5DDE /* main.m */; };
+		35C7EB9E152E0DA3005C5DDE /* ILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C7EB9D152E0DA3005C5DDE /* ILAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35C7EB89152E0DA3005C5DDE /* Deck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C7EB8D152E0DA3005C5DDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35C7EB8F152E0DA3005C5DDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35C7EB91152E0DA3005C5DDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35C7EB95152E0DA3005C5DDE /* Deck-Info.plist */ = {isa = PBXFileReference; path = "Deck-Info.plist"; sourceTree = "<group>"; };
+		35C7EB97152E0DA3005C5DDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35C7EB99152E0DA3005C5DDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35C7EB9B152E0DA3005C5DDE /* Deck-Prefix.pch */ = {isa = PBXFileReference; path = "Deck-Prefix.pch"; sourceTree = "<group>"; };
+		35C7EB9C152E0DA3005C5DDE /* ILAppDelegate.h */ = {isa = PBXFileReference; path = ILAppDelegate.h; sourceTree = "<group>"; };
+		35C7EB9D152E0DA3005C5DDE /* ILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35C7EB86152E0DA3005C5DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C7EB8E152E0DA3005C5DDE /* UIKit.framework in Frameworks */,
+				35C7EB90152E0DA3005C5DDE /* Foundation.framework in Frameworks */,
+				35C7EB92152E0DA3005C5DDE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C7EB7E152E0DA3005C5DDE = {
+			isa = PBXGroup;
+			children = (
+				35C7EB93152E0DA3005C5DDE /* Deck */,
+				35C7EB8C152E0DA3005C5DDE /* Frameworks */,
+				35C7EB8A152E0DA3005C5DDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35C7EB8A152E0DA3005C5DDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C7EB89152E0DA3005C5DDE /* Deck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C7EB8C152E0DA3005C5DDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35C7EB8D152E0DA3005C5DDE /* UIKit.framework */,
+				35C7EB8F152E0DA3005C5DDE /* Foundation.framework */,
+				35C7EB91152E0DA3005C5DDE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35C7EB93152E0DA3005C5DDE /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+				35C7EB9C152E0DA3005C5DDE /* ILAppDelegate.h */,
+				35C7EB9D152E0DA3005C5DDE /* ILAppDelegate.m */,
+				35C7EB94152E0DA3005C5DDE /* Supporting Files */,
+			);
+			path = Deck;
+			sourceTree = "<group>";
+		};
+		35C7EB94152E0DA3005C5DDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35C7EB95152E0DA3005C5DDE /* Deck-Info.plist */,
+				35C7EB96152E0DA3005C5DDE /* InfoPlist.strings */,
+				35C7EB99152E0DA3005C5DDE /* main.m */,
+				35C7EB9B152E0DA3005C5DDE /* Deck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35C7EB88152E0DA3005C5DDE /* Deck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C7EBA1152E0DA3005C5DDE /* Build configuration list for PBXNativeTarget "Deck" */;
+			buildPhases = (
+				35C7EB85152E0DA3005C5DDE /* Sources */,
+				35C7EB86152E0DA3005C5DDE /* Frameworks */,
+				35C7EB87152E0DA3005C5DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deck;
+			productName = Deck;
+			productReference = 35C7EB89152E0DA3005C5DDE /* Deck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C7EB80152E0DA3005C5DDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = particulier;
+			};
+			buildConfigurationList = 35C7EB83152E0DA3005C5DDE /* Build configuration list for PBXProject "Deck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35C7EB7E152E0DA3005C5DDE;
+			productRefGroup = 35C7EB8A152E0DA3005C5DDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C7EB88152E0DA3005C5DDE /* Deck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35C7EB87152E0DA3005C5DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C7EB98152E0DA3005C5DDE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C7EB85152E0DA3005C5DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C7EB9A152E0DA3005C5DDE /* main.m in Sources */,
+				35C7EB9E152E0DA3005C5DDE /* ILAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35C7EB96152E0DA3005C5DDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C7EB97152E0DA3005C5DDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35C7EB9F152E0DA3005C5DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35C7EBA0152E0DA3005C5DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35C7EBA2152E0DA3005C5DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Deck/Deck-Prefix.pch";
+				INFOPLIST_FILE = "Deck/Deck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35C7EBA3152E0DA3005C5DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Deck/Deck-Prefix.pch";
+				INFOPLIST_FILE = "Deck/Deck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35C7EB83152E0DA3005C5DDE /* Build configuration list for PBXProject "Deck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C7EB9F152E0DA3005C5DDE /* Debug */,
+				35C7EBA0152E0DA3005C5DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C7EBA1152E0DA3005C5DDE /* Build configuration list for PBXNativeTarget "Deck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C7EBA2152E0DA3005C5DDE /* Debug */,
+				35C7EBA3152E0DA3005C5DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35C7EB80152E0DA3005C5DDE /* Project object */;
+}
