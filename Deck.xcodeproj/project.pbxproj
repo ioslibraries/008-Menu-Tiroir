@@ -13,6 +13,15 @@
 		35C7EB98152E0DA3005C5DDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35C7EB96152E0DA3005C5DDE /* InfoPlist.strings */; };
 		35C7EB9A152E0DA3005C5DDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C7EB99152E0DA3005C5DDE /* main.m */; };
 		35C7EB9E152E0DA3005C5DDE /* ILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C7EB9D152E0DA3005C5DDE /* ILAppDelegate.m */; };
+		35C7EBA9152E0DE0005C5DDE /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C7EBA6152E0DE0005C5DDE /* IIViewDeckController.m */; };
+		35C7EBAA152E0DE0005C5DDE /* WrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C7EBA8152E0DE0005C5DDE /* WrapController.m */; };
+		35C7EBAE152E0DFD005C5DDE /* ILViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C7EBAC152E0DFD005C5DDE /* ILViewController.m */; };
+		35C7EBAF152E0DFD005C5DDE /* ILViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C7EBAD152E0DFD005C5DDE /* ILViewController.xib */; };
+		35C7EBB4152E1213005C5DDE /* ILLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C7EBB2152E1213005C5DDE /* ILLeftViewController.m */; };
+		35C7EBB5152E1213005C5DDE /* ILLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C7EBB3152E1213005C5DDE /* ILLeftViewController.xib */; };
+		35C7EBC2152E1BD5005C5DDE /* poire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35C7EBC1152E1BD5005C5DDE /* poire.jpg */; };
+		35C7EBC4152E1BDA005C5DDE /* fraise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35C7EBC3152E1BDA005C5DDE /* fraise.jpg */; };
+		35C7EBC6152E1BE0005C5DDE /* pomme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35C7EBC5152E1BE0005C5DDE /* pomme.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,25 @@
 		35C7EB8D152E0DA3005C5DDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35C7EB8F152E0DA3005C5DDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35C7EB91152E0DA3005C5DDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		35C7EB95152E0DA3005C5DDE /* Deck-Info.plist */ = {isa = PBXFileReference; path = "Deck-Info.plist"; sourceTree = "<group>"; };
+		35C7EB95152E0DA3005C5DDE /* Deck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Deck-Info.plist"; sourceTree = "<group>"; };
 		35C7EB97152E0DA3005C5DDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35C7EB99152E0DA3005C5DDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35C7EB9B152E0DA3005C5DDE /* Deck-Prefix.pch */ = {isa = PBXFileReference; path = "Deck-Prefix.pch"; sourceTree = "<group>"; };
-		35C7EB9C152E0DA3005C5DDE /* ILAppDelegate.h */ = {isa = PBXFileReference; path = ILAppDelegate.h; sourceTree = "<group>"; };
+		35C7EB9B152E0DA3005C5DDE /* Deck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Deck-Prefix.pch"; sourceTree = "<group>"; };
+		35C7EB9C152E0DA3005C5DDE /* ILAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILAppDelegate.h; sourceTree = "<group>"; };
 		35C7EB9D152E0DA3005C5DDE /* ILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILAppDelegate.m; sourceTree = "<group>"; };
+		35C7EBA5152E0DE0005C5DDE /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		35C7EBA6152E0DE0005C5DDE /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		35C7EBA7152E0DE0005C5DDE /* WrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrapController.h; sourceTree = "<group>"; };
+		35C7EBA8152E0DE0005C5DDE /* WrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrapController.m; sourceTree = "<group>"; };
+		35C7EBAB152E0DFD005C5DDE /* ILViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILViewController.h; sourceTree = "<group>"; };
+		35C7EBAC152E0DFD005C5DDE /* ILViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILViewController.m; sourceTree = "<group>"; };
+		35C7EBAD152E0DFD005C5DDE /* ILViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILViewController.xib; sourceTree = "<group>"; };
+		35C7EBB1152E1213005C5DDE /* ILLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILLeftViewController.h; sourceTree = "<group>"; };
+		35C7EBB2152E1213005C5DDE /* ILLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILLeftViewController.m; sourceTree = "<group>"; };
+		35C7EBB3152E1213005C5DDE /* ILLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILLeftViewController.xib; sourceTree = "<group>"; };
+		35C7EBC1152E1BD5005C5DDE /* poire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poire.jpg; sourceTree = "<group>"; };
+		35C7EBC3152E1BDA005C5DDE /* fraise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fraise.jpg; sourceTree = "<group>"; };
+		35C7EBC5152E1BE0005C5DDE /* pomme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pomme.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +94,15 @@
 		35C7EB93152E0DA3005C5DDE /* Deck */ = {
 			isa = PBXGroup;
 			children = (
+				35C7EBBF152E1BC6005C5DDE /* Images */,
+				35C7EBB0152E11E8005C5DDE /* Left Menu */,
+				35C7EBA4152E0DE0005C5DDE /* ViewDeck */,
 				35C7EB9C152E0DA3005C5DDE /* ILAppDelegate.h */,
 				35C7EB9D152E0DA3005C5DDE /* ILAppDelegate.m */,
 				35C7EB94152E0DA3005C5DDE /* Supporting Files */,
+				35C7EBAB152E0DFD005C5DDE /* ILViewController.h */,
+				35C7EBAC152E0DFD005C5DDE /* ILViewController.m */,
+				35C7EBAD152E0DFD005C5DDE /* ILViewController.xib */,
 			);
 			path = Deck;
 			sourceTree = "<group>";
@@ -88,6 +116,37 @@
 				35C7EB9B152E0DA3005C5DDE /* Deck-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35C7EBA4152E0DE0005C5DDE /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				35C7EBA5152E0DE0005C5DDE /* IIViewDeckController.h */,
+				35C7EBA6152E0DE0005C5DDE /* IIViewDeckController.m */,
+				35C7EBA7152E0DE0005C5DDE /* WrapController.h */,
+				35C7EBA8152E0DE0005C5DDE /* WrapController.m */,
+			);
+			path = ViewDeck;
+			sourceTree = "<group>";
+		};
+		35C7EBB0152E11E8005C5DDE /* Left Menu */ = {
+			isa = PBXGroup;
+			children = (
+				35C7EBB1152E1213005C5DDE /* ILLeftViewController.h */,
+				35C7EBB2152E1213005C5DDE /* ILLeftViewController.m */,
+				35C7EBB3152E1213005C5DDE /* ILLeftViewController.xib */,
+			);
+			name = "Left Menu";
+			sourceTree = "<group>";
+		};
+		35C7EBBF152E1BC6005C5DDE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				35C7EBC5152E1BE0005C5DDE /* pomme.jpg */,
+				35C7EBC3152E1BDA005C5DDE /* fraise.jpg */,
+				35C7EBC1152E1BD5005C5DDE /* poire.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				35C7EB98152E0DA3005C5DDE /* InfoPlist.strings in Resources */,
+				35C7EBAF152E0DFD005C5DDE /* ILViewController.xib in Resources */,
+				35C7EBB5152E1213005C5DDE /* ILLeftViewController.xib in Resources */,
+				35C7EBC2152E1BD5005C5DDE /* poire.jpg in Resources */,
+				35C7EBC4152E1BDA005C5DDE /* fraise.jpg in Resources */,
+				35C7EBC6152E1BE0005C5DDE /* pomme.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +219,10 @@
 			files = (
 				35C7EB9A152E0DA3005C5DDE /* main.m in Sources */,
 				35C7EB9E152E0DA3005C5DDE /* ILAppDelegate.m in Sources */,
+				35C7EBA9152E0DE0005C5DDE /* IIViewDeckController.m in Sources */,
+				35C7EBAA152E0DE0005C5DDE /* WrapController.m in Sources */,
+				35C7EBAE152E0DFD005C5DDE /* ILViewController.m in Sources */,
+				35C7EBB4152E1213005C5DDE /* ILLeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +326,7 @@
 				35C7EBA3152E0DA3005C5DDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

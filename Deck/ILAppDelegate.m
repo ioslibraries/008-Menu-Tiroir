@@ -7,15 +7,29 @@
 //
 
 #import "ILAppDelegate.h"
+#import "ILViewController.h"
+#import "ILLeftViewController.h"
+#import "IIViewDeckController.h"
 
 @implementation ILAppDelegate
 
 @synthesize window = _window;
+@synthesize leftViewController,rightViewController,centerViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    self.centerViewController = [[ILViewController alloc] initWithNibName:@"ILViewController" bundle:nil];
+    self.centerViewController.view.backgroundColor = [UIColor redColor];
+    
+    self.leftViewController = [[ILLeftViewController alloc] initWithNibName:@"ILLeftViewController" bundle:nil];
+
+    IIViewDeckController* deck = [[IIViewDeckController alloc] initWithCenterViewController:self.centerViewController leftViewController:self.leftViewController];
+    
+    deck.panningMode = IIViewDeckNoPanning;
+    
+    self.window.rootViewController = deck;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
